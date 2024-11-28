@@ -1,0 +1,22 @@
+{
+  "name": "json-server-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "frontend": "http-server",
+    "backend": "json-server -w db.json"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
+    "http-server": "^0.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
